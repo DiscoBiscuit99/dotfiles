@@ -17,6 +17,8 @@
 
 !.scripts/
 
+!.local/
+.local/*
 !.local/emoji
 
 !.mozc/
