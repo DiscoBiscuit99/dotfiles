@@ -1,94 +1,99 @@
-##
 # Files
- mpd_music_dir = "~/Music"  
- lyrics_directory  = ~/.ncmpcpp/lyrics
- ncmpcpp_directory  = ~/.ncmpcpp
- mpd_host = "127.0.0.1"
- mpd_port = "6600"  
- mpd_connection_timeout = "5"  
- mpd_crossfade_time = "5"  
+mpd_music_dir = "~/Music"  
+lyrics_directory  = "~/.config/ncmpcpp/lyrics"
+ncmpcpp_directory  = "~/.config/ncmpcpp"
+mpd_host = "127.0.0.1"
+mpd_port = "6600"  
+mpd_connection_timeout = "5"  
+mpd_crossfade_time = "5"  
 
- # Playlist
- playlist_disable_highlight_delay = "0"  
- playlist_display_mode = "columns"  
- playlist_show_remaining_time = "yes"
+#autocenter_mode = "yes"  
+##fancy_scrolling = "yes"  # Unknown option
+follow_now_playing_lyrics = "yes"  
+##display_screens_numbers_on_start = "yes"  # Unkown option
+##lyrics_database = "1"  # Unknown option
+#song_columns_list_format = "(10)[blue]{l} (20)[green]{a} (35)[magenta]{b} (40)[yellow]{t}"  
+colors_enabled = "yes"  
+#main_window_color = "white"  
+##main_window_highlight_color =  "blue" # Deprecated
+#header_window_color = "cyan"  
+volume_color = "blue"  
+statusbar_color = "red"  
+##active_column_color = "cyan"  # Deprecated
+#active_window_border = "blue"
 
- browser_display_mode = "columns"  
- autocenter_mode = "yes"  
- fancy_scrolling = "yes"  
- follow_now_playing_lyrics = "yes"  
- display_screens_numbers_on_start = "yes"  
- ignore_leading_the = "yes"  
- lyrics_database = "1"  
- song_columns_list_format = "(10)[blue]{l} (30)[green]{a} (30)[magenta]{b} (50)[yellow]{t}"  
- colors_enabled = "yes"  
- main_window_color = "white"  
- main_window_highlight_color =  "blue"
- header_window_color = "cyan"  
- volume_color = "red"  
- progressbar_color = "cyan"  
- statusbar_color = "white"  
- active_column_color = "cyan"  
- active_window_border = "blue"
+#alternative_header_first_line_format = "$0$aqqu$/a {$7%a - $9}{$5%t$9}|{$8%f$9} $0$atqq$/a$9"
+#alternative_header_second_line_format = "{{$6%b$9}{ [$6%y$9]}}|{%D}"
 
-alternative_header_first_line_format = "$0$aqqu$/a {$7%a - $9}{$5%t$9}|{$8%f$9} $0$atqq$/a$9"
-alternative_header_second_line_format = "{{$6%b$9}{ [$6%y$9]}}|{%D}"
+allow_for_physical_item_deletion = "no"
+
+# Playlist
+playlist_disable_highlight_delay = "0"  
+playlist_display_mode = "columns"  
+playlist_show_remaining_time = "yes"
+
+## Format ##
 song_list_format = "{$3%n │ $9}{$7%a - $9}{$5%t$9}|{$8%f$9}$R{$6 │ %b$9}{$3 │ %l$9}"
-user_interface = "alternative"
-#user_interface =                    "classic"
-default_place_to_search_in = "database"
+song_status_format = " $2%a $4⟫$3⟫ $8%t $4⟫$3⟫ $5%b "
+#song_library_format = "{%n - }{%t}|{%f}"
 
+user_interface = "alternative" # or `classic`
+#default_place_to_search_in = "database" 
 
-# visualizer
-visualizer_fifo_path = "/tmp/mpd.fifo"
-visualizer_output_name = "my_fifo"
-visualizer_sync_interval = "12"
-#visualizer_type = "wave" (spectrum/wave)
-#visualizer_type = "spectrum" (spectrum/wave)
-visualizer_type = "ellipse"
+### Browser ##
+#browser_display_mode = "columns"  
+browser_playlist_prefix = "$2playlist$9 "
+
+### Current Item ##
+#current_item_prefix = "$(blue)$r"
+#current_item_suffix = "$/r$(end)"
+#current_item_inactive_column_prefix = "$(cyan)$r"
+#current_item_inactive_column_suffix = "$/r$(end)"
+
+### Visualizer ##
+#visualizer_fifo_path = "/tmp/mpd.fifo"
+#visualizer_output_name = "my_fifo"
+#visualizer_sync_interval = "12"
+visualizer_type = "ellipse" # (spectrum/wave)
 visualizer_in_stereo = "yes"
-#visualizer_look = "+|"
-visualizer_look = "●▮"
+##visualizer_look = "+|"
+#visualizer_look = "●▮"
 
-
-## Navigation ##
+### Navigation ##
 cyclic_scrolling = "yes"
 header_text_scrolling = "yes"
 jump_to_now_playing_song_at_start = "yes"
 lines_scrolled = "2"
 
-## Other ##
-system_encoding = "utf-8"
-regular_expressions = "extended"
+### Other ##
+#system_encoding = "utf-8"
+regular_expressions = "extended" 
 
-
-
-## Selected tracks ##
+### Selected tracks ##
 selected_item_prefix = "* "
 discard_colors_if_item_is_selected = "no"
 
-## Seeking ##
-incremental_seeking = "yes"
-seek_time = "1"
+### Seeking ##
+#incremental_seeking = "yes"
+#seek_time = "1"
 
-## Visivility ##
-header_visibility = "yes"
-statusbar_visibility = "yes"
-titles_visibility = "yes"
-
+### Visivility ##
+#header_visibility = "yes"
+#statusbar_visibility = "yes"
+#titles_visibility = "yes" 
 
 progressbar_look =  "=>-"
-progressbar_boldness = "yes"
-progressbar_elapsed_color = "white"
+##progressbar_boldness = "yes" # Deprecated
+progressbar_color = "black"  # If not set, the character will be bolded while the color will be the same.
+#progressbar_elapsed_color = "green" # if not set, the character will be bolded while the color will be the same.
 
-now_playing_prefix = "> "
-song_status_format = " $2%a $4⟫$3⟫ $8%t $4⟫$3⟫ $5%b "
-autocenter_mode = "yes"
+now_playing_prefix = "$b>> "
+now_playing_suffix = "$/b"
 centered_cursor = "yes"
 
-# Misc
+## Misc
 display_bitrate = "yes"
-# enable_window_title = "no"
-follow_now_playing_lyrics = "yes"
+##enable_window_title = "no"
 ignore_leading_the = "yes"
-empty_tag_marker = ""
+#empty_tag_marker = ""
+

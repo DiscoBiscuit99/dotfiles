@@ -52,10 +52,13 @@
 .config/session/
 .config/writer/
 .config/gladeui/
+.config/ibus/
+.config/dconf/
 
 .config/mpd/log
 .config/mpd/mpd.log
 .config/mpd/mpd.pid
+.config/mpd/mpd.db
 
 .config/QtProject.conf
 .congig/mimeapps.list
