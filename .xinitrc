@@ -53,14 +53,14 @@ ibus-daemon -drxicom &
 
 setxkbmap -option caps:swapescape -option grp:alt_space_toggle "us,dk" &
 
-.scripts/start-jack &
-~/.scripts/status & 
+start-jack &
 ~/.fehbg &
+status & 
 #wal -R &
 picom -D 5 &
 mpd &
 cd & 
-st &
+$TERMINAL &
 exec dwm 
 #startdwm &
 #dwm-relaunch-on-change &

@@ -53,6 +53,7 @@
 
 .config/mpd/log
 .config/mpd/mpd.log
+.config/mpd/mpd.pid
 
 .config/QtProject.conf
 .congig/mimeapps.list
