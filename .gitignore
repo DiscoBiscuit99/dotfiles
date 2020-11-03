@@ -1,6 +1,26 @@
 /*
 !.gitignore
 
+!.zprofile
+!.Xresources
+!.xinitrc
+!.xbindkeysrc
+!.vimrc
+!.Xauthority
+!.profile
+!.bashrc
+!.bash_profile
+
+!.vim/
+
+!.local/emoji
+
+!.mozc/
+!.anthy/
+!.uim.d/
+
+!.ncmpcpp/
+
 !.config/
 .config/spotify/
 .config/discord/
