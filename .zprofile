@@ -2,7 +2,7 @@
 # Adds '$HOME/.local/bin' to $PATH.
 #export PATH="$PATH:$(du "/usr/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 
-export PATH="$PATH:/usr/src/st/:$HOME/.cargo/bin:$HOME/.scripts:/usr/bin/:/opt/cmake/bin"
+export PATH="$PATH:$HOME/.cargo/bin:$HOME/.scripts:/usr/bin:/opt/cmake/bin"
 
 # Default programs.
 export EDITOR="nvim"
