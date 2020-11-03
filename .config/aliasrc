@@ -59,6 +59,7 @@ alias \
 alias \
 	x="startx" \
 	yt="youtube-dl" \
+    gg="poweroff" \
 	theme="wal -i" 
 
 
