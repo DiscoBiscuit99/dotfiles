@@ -1,0 +1,56 @@
+# Basic vars
+set shell bash
+set shellopts '-eu'
+set ifs "\n"
+set scrolloff 10
+set color256
+set icons
+set period 1
+#set hidden
+
+cmd open ${{
+    case $(file --mime-type $f -b) in
+		image/vnd.djvu|application/pdf|application/octet-stream) 
+            zathura $fx
+            ;;
+		image/*) 
+            $f | sxiv -aio $f
+            ;;
+		audio/*) 
+            mpv --audio-display=no $f
+            ;;
+		video/*) 
+            mpv $f -quiet
+            ;;
+		application/pdf|application/vnd*|application/epub*) 
+            zathura $fx
+            ;;
+		*) 
+            for f in $fx; do $EDITOR $f; # Change EDITOR to OPENER, maybe
+            done;;
+    esac
+}}
+
+cmd delete ${{
+	clear; tput bold
+	set -f
+	printf "%s\n" "$fx"
+	printf "delete?[y/N]"
+	read ans
+	[ $ans = "y" ] && rm -rf $fx
+}}
+
+map D delete
+map <enter> open
+
+map <c-n> push :mkdir<space>
+map <c-r> reload
+
+map A rename # at the very end
+map c push A<c-u> # new rename
+map I push A<c-a> # at the very beginning
+map i push A<a-b><a-b><a-f> # before extention
+map a push A<a-b> # after extention
+
+map V push :!nvim<space>
+

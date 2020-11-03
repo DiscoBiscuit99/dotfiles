@@ -1,0 +1,9 @@
+open arch linux xprofile
+open github.com/lukesmithxyz
+vsplit intricassies
+tabnew intricassies
+newtab intricassies
+open nvim
+q
+q
+q

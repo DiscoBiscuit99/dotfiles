@@ -1,5 +1,18 @@
-*
+/*
 !.gitignore
 
 !.config/
+.config/spotify/
+.config/discord/
+.config/VirtualBox/
+.config/totem/
+.config/rncbc.org/
+.config/procps/
+.config/Notable/
+.config/Electron/
+.config/pulse/
+.config/BraveSoftware/
+
+.config/mpd/log
+.config/mpd/mpd.log
 

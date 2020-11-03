@@ -1,0 +1,66 @@
+#!/bin/sh
+
+# Use neovim for vim if present.
+command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -v" \
+	mkd="mkdir -pv" \
+	ll="ls -l" \
+	la="ls -la"
+
+# Colorize commands when possible.
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi"
+
+# Vim related.
+alias \
+    vi="vim" \
+	vimrc="vim ~/.config/nvim/init.vim" \
+    vw="vim -c VimwikiIndex" \
+    notes="vim -c VimwikiIndex -c Goyo" \
+	arc="nvim ~/.config/aliasrc" \
+	todo="nvim ~/Desktop/todo.md" 
+
+# Git related.
+alias \
+	add="git add ." \
+	push="git push origin master" \
+	pull="git pull origin master"
+
+# Personal scripts.
+alias \
+	lw="list-wifi" \
+	cw="connect-wifi" \
+	img="sxiv -t -b ~/Pictures &" 
+
+# Sourcing of different files.
+alias \
+	aso="source ~/.config/aliasrc" 
+
+# Navigation
+alias \
+	dev="cd ~/Dev" \
+    programs="cd ~/Programs" \
+    desktop="cd ~/Desktop" \
+    documents="cd ~/Documents" \
+    downloads="cd ~/Downloads" \
+    music="cd ~/Music" \
+    pictures="cd ~/Pictures" \
+    videos="cd ~/Videos"
+
+# These common commands are just too long! Abbreviate them.
+alias \
+	x="startx" \
+	yt="youtube-dl" \
+	theme="wal -i" 
+
+
+#alias ls='ls --color=auto'
+

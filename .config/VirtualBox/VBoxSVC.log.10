@@ -1,0 +1,122 @@
+00:00:00.000155 main     VirtualBox XPCOM Server 6.1.14 r140239 linux.amd64 (Sep  7 2020 21:01:30) release log
+00:00:00.000158 main     Log opened 2020-09-19T23:31:49.795404000Z
+00:00:00.000158 main     Build Type: release
+00:00:00.000160 main     OS Product: Linux
+00:00:00.000160 main     OS Release: 5.8.8-arch1-1
+00:00:00.000161 main     OS Version: #1 SMP PREEMPT Wed, 09 Sep 2020 18:59:45 +0000
+00:00:00.000178 main     DMI Product Name: WRT-WX9
+00:00:00.000187 main     DMI Product Version: M1010
+00:00:00.000191 main     Firmware type: UEFI
+00:00:00.001147 main     Secure Boot: Disabled
+00:00:00.001194 main     Host RAM: 7702MB (7.5GB) total, 3660MB (3.5GB) available
+00:00:00.001197 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001198 main     Process ID: 98855
+00:00:00.001198 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.003315 main     IPC socket path: /tmp/.vbox-glenn-ipc/ipcd
+00:00:00.108841 nspr-2   VirtualBox: object creation starts
+00:00:00.108910 nspr-2   Home directory: '/home/glenn/.config/VirtualBox'
+00:00:00.114858 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.115260 nspr-2   HostDnsMonitor: initializing
+00:00:00.115555 nspr-2   NAT: resolv.conf: nameserver 212.10.10.4
+00:00:00.115564 nspr-2   NAT: resolv.conf: nameserver 212.10.10.5
+00:00:00.115571 nspr-2   HostDnsMonitor: updating information
+00:00:00.115594 nspr-2   HostDnsMonitor: old information
+00:00:00.115596 nspr-2     no server entries
+00:00:00.115598 nspr-2     no domain set
+00:00:00.115600 nspr-2     no search string entries
+00:00:00.115602 nspr-2   HostDnsMonitor: new information
+00:00:00.115603 nspr-2     server 1: 212.10.10.4
+00:00:00.115606 nspr-2     server 2: 212.10.10.5
+00:00:00.115608 nspr-2     no domain set
+00:00:00.115609 nspr-2     no search string entries
+00:00:00.117654 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.117794 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.117864 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.118283 nspr-2   VirtualBox: object created
+00:00:03.379883 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:03.383534 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:42.760294 nspr-2   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:51.776891 nspr-2   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:51.789968 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:51.791504 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:18:46.688809 createBase Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:18:47.287535 nspr-2   Saving settings file "/home/glenn/VirtualBox VMs/MacOS Big Sur/MacOS Big Sur.vbox" with version "1.15-linux"
+00:18:47.290179 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:47.291940 nspr-4   Saving settings file "/home/glenn/VirtualBox VMs/MacOS Big Sur/MacOS Big Sur.vbox" with version "1.15-linux"
+00:18:47.293879 nspr-4   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:18:47.298965 nspr-2   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:18:47.301770 nspr-4   Saving settings file "/home/glenn/VirtualBox VMs/MacOS Big Sur/MacOS Big Sur.vbox" with version "1.15-linux"
+00:18:47.686137 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:47.729841 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:18:47.877027 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:47.878112 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:04.173976 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:19:04.448779 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:04.927212 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:19:04.927295 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:19:04.927354 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:19:04.942903 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:19:04.949041 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:19:04.955844 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:04.956084 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:05.104932 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:19:05.115579 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:05.116167 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:20:20.505562 nspr-3   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:20:20.509433 nspr-4   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:20:20.535535 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:20:20.545729 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:20:20.546338 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:36.889093 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={No storage device attached to device slot 0 on port 0 of controller 'SATA'}, preserve=false aResultDetail=0
+00:21:36.890412 nspr-4   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:36.903050 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={No storage device attached to device slot 0 on port 1 of controller 'SATA'}, preserve=false aResultDetail=0
+00:21:36.920816 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:36.922571 nspr-2   Saving settings file "/home/glenn/VirtualBox VMs/MacOS Big Sur/MacOS Big Sur.vbox" with version "1.15-linux"
+00:21:36.925171 nspr-3   Saving settings file "/home/glenn/VirtualBox VMs/MacOS Big Sur/MacOS Big Sur.vbox" with version "1.15-linux"
+00:21:36.978027 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:21:36.995713 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:36.996245 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:23:00.393709 ExtPackInst ExtPack: Executing '/usr/lib/virtualbox/VBoxExtPackHelperApp' 'install' '--base-dir' '/usr/lib/virtualbox/ExtensionPacks' '--cert-dir' '/usr/share/virtualbox/ExtPackCertificates' '--name' 'Oracle VM VirtualBox Extension Pack' '--tarball' '/home/glenn/Downloads/Oracle_VM_VirtualBox_Extension_Pack-6.1.14.vbox-extpack' '--sha-256' 'b224e796e886b19bce69f0aaedf6ca82bad0ca29c61fb0ed86166efb84356942'
+00:23:04.736942 ExtPackInst ExtPack: enmReason=1 iStatus=0 stderr='rcExit=RTEXITCODE_SUCCESS
+00:23:04.736946 ExtPackInst '
+00:23:04.737580 ExtPackInst ExtPackManager: Found extension pack 'Oracle VM VirtualBox Extension Pack'.
+00:23:04.737660 ExtPackInst ExtPackManager: Successfully installed extension pack 'Oracle VM VirtualBox Extension Pack'.
+00:23:04.737740 ExtPackInst OCI: Local config file '/home/glenn/.config/VirtualBox/oci_config' does not exist
+00:23:04.737745 ExtPackInst OCI: Original config file '/home/glenn/.oci/config' does not exist
+00:23:04.737747 ExtPackInst OCI: Reading profiles finished with status NS_OK
+00:23:04.737750 ExtPackInst ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:23:17.757016 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:23:17.775334 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:23:17.793624 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:23:17.794604 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:23:19.148885 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:23:19.225538 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:23:19.670882 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:23:19.670992 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:23:19.671076 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:23:19.682296 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:23:19.688043 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:23:19.697825 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:23:19.698164 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:23:19.789018 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:23:19.800171 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:23:19.800716 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:26:23.674597 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:26:23.722176 nspr-4   Saving settings file "/home/glenn/VirtualBox VMs/MacOS Big Sur/MacOS Big Sur.vbox" with version "1.15-linux"
+00:26:23.770452 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:26:23.781501 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:26:23.782117 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:26:25.778911 nspr-2   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:26:25.791857 nspr-3   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:26:25.795674 nspr-3   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:26:25.806297 nspr-4   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:26:25.811736 nspr-3   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:26:25.815662 nspr-2   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:26:25.819128 nspr-4   Saving settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:26:31.346322 main     VirtualBox: object deletion starts
+00:26:31.346456 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/glenn/VirtualBox VMs/MacOS Big Sur/MacOS Big Sur.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:26:31.356150 main     HostDnsMonitor: shutting down ...
+00:26:31.369627 main     HostDnsMonitor: shut down
+00:26:31.728362 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:26:36.369920 main     {00007f81dc01d010} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:26:36.371040 main     VirtualBox: object deleted

@@ -1,0 +1,49 @@
+00:00:00.000202 main     VirtualBox XPCOM Server 6.1.14 r140239 linux.amd64 (Sep  7 2020 21:01:30) release log
+00:00:00.000205 main     Log opened 2020-09-20T00:00:15.817920000Z
+00:00:00.000205 main     Build Type: release
+00:00:00.000207 main     OS Product: Linux
+00:00:00.000208 main     OS Release: 5.8.8-arch1-1
+00:00:00.000209 main     OS Version: #1 SMP PREEMPT Wed, 09 Sep 2020 18:59:45 +0000
+00:00:00.000232 main     DMI Product Name: WRT-WX9
+00:00:00.000240 main     DMI Product Version: M1010
+00:00:00.000244 main     Firmware type: UEFI
+00:00:00.001307 main     Secure Boot: Disabled
+00:00:00.001366 main     Host RAM: 7702MB (7.5GB) total, 2609MB (2.5GB) available
+00:00:00.001370 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001371 main     Process ID: 109319
+00:00:00.001371 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.003259 main     IPC socket path: /tmp/.vbox-glenn-ipc/ipcd
+00:00:00.110158 nspr-2   VirtualBox: object creation starts
+00:00:00.110330 nspr-2   Home directory: '/home/glenn/.config/VirtualBox'
+00:00:00.110639 nspr-2   Loading settings file "/home/glenn/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.126342 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.127561 nspr-2   HostDnsMonitor: initializing
+00:00:00.128161 nspr-2   NAT: resolv.conf: nameserver 212.10.10.4
+00:00:00.128193 nspr-2   NAT: resolv.conf: nameserver 212.10.10.5
+00:00:00.128216 nspr-2   HostDnsMonitor: updating information
+00:00:00.128253 nspr-2   HostDnsMonitor: old information
+00:00:00.128261 nspr-2     no server entries
+00:00:00.128268 nspr-2     no domain set
+00:00:00.128273 nspr-2     no search string entries
+00:00:00.128280 nspr-2   HostDnsMonitor: new information
+00:00:00.128285 nspr-2     server 1: 212.10.10.4
+00:00:00.128293 nspr-2     server 2: 212.10.10.5
+00:00:00.128299 nspr-2     no domain set
+00:00:00.128305 nspr-2     no search string entries
+00:00:00.134300 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.138579 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.138868 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.149133 nspr-2   Loading settings file "/home/glenn/VirtualBox VMs/MacOS Big Sur/MacOS Big Sur.vbox" with version "1.15-linux"
+00:00:00.152398 nspr-2   OCI: Local config file '/home/glenn/.config/VirtualBox/oci_config' does not exist
+00:00:00.152445 nspr-2   OCI: Original config file '/home/glenn/.oci/config' does not exist
+00:00:00.152455 nspr-2   OCI: Reading profiles finished with status NS_OK
+00:00:00.152480 nspr-2   ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:00:00.152516 nspr-2   VirtualBox: object created
+00:00:00.181168 nspr-3   Saving settings file "/home/glenn/VirtualBox VMs/MacOS Big Sur/MacOS Big Sur.vbox" with version "1.15-linux"
+00:00:05.194021 main     VirtualBox: object deletion starts
+00:00:05.194150 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/glenn/VirtualBox VMs/MacOS Big Sur/MacOS Big Sur.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:05.195261 main     HostDnsMonitor: shutting down ...
+00:00:05.209085 main     HostDnsMonitor: shut down
+00:00:05.690786 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:10.209371 main     {00007f6b7401ea60} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:10.210707 main     VirtualBox: object deleted
