@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#cat /sys/class/power_supply/BAT0/alarm
+#cat /sys/class/power_supply/BAT0/capacity
+#cat /sys/class/power_supply/BAT0/capacity_level
+#cat /sys/class/power_supply/BAT0/charge_control_end_threshold
+#cat /sys/class/power_supply/BAT0/charge_control_start_threshold
+#cat /sys/class/power_supply/BAT0/
+#cat /sys/class/power_supply/BAT0/capacity
+#cat /sys/class/power_supply/BAT0/capacity
+#cat /sys/class/power_supply/BAT0/capacity
+#cat /sys/class/power_supply/BAT0/capacity
+
+for file in /sys/class/power_supply/BAT0/*; do
+    cat $file
+done
+
