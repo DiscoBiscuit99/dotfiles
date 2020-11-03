@@ -1,6 +1,7 @@
 /*
 !.gitignore
 
+<<<<<<< HEAD
 !.config/
 .config/spotify/
 .config/discord/
@@ -15,4 +16,9 @@
 
 .config/mpd/log
 .config/mpd/mpd.log
+||||||| 40ed487
+!.config/
+=======
+!/.config/
+>>>>>>> 3bde83f4d9c04e150c0151b64bf439afc01d7b3c
 
