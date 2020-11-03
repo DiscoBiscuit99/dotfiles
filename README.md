@@ -1,4 +1,4 @@
 # My dotfiles
 
-Title says it all.
+A backup of my dotfiles.
  
