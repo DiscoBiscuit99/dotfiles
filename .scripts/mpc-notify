@@ -2,7 +2,7 @@
 
 COVER=/tmp/"$(mpc current).jpg"
 
-ffmpeg -i ~/Music/"$(mpc current -f %file%)" "$COVER"
+ffmpeg -i ~/Music/"$(mpc current -f %file%)" "$COVER" -y
 
 PROGRESS="$(mpc | sed 1d | sed '$ d' | awk '{gsub(/^[^(]*\(|\)[^)]*$/,"",$0);print $0}')"
 
