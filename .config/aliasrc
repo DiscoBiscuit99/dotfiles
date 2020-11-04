@@ -2,6 +2,7 @@
 
 # Use neovim for vim if present.
 command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"
+command -v neomutt >/dev/null && alias mutt="neomutt"
 
 # Verbosity and settings that you pretty much just always are going to want.
 alias \
@@ -30,7 +31,8 @@ alias \
 
 # Git related.
 alias \
-	add="git add ." \
+	addall="git add ." \
+    commit="git commit -m $1" \
 	push="git push origin master" \
 	pull="git pull origin master"
 

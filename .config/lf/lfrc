@@ -15,7 +15,7 @@ cmd open ${{
             zathura $fx
             ;;
 		image/*) 
-            $f | sxiv -aio $f
+            $f | sxiv -aboi $f
             ;;
 		audio/*) 
             mpv --audio-display=no $f

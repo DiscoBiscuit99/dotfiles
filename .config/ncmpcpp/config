@@ -25,7 +25,7 @@ statusbar_color = "red"
 #alternative_header_first_line_format = "$0$aqqu$/a {$7%a - $9}{$5%t$9}|{$8%f$9} $0$atqq$/a$9"
 #alternative_header_second_line_format = "{{$6%b$9}{ [$6%y$9]}}|{%D}"
 
-allow_for_physical_item_deletion = "no"
+allow_for_physical_item_deletion = "yes"
 
 # Playlist
 playlist_disable_highlight_delay = "0"  
