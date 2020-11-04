@@ -34,8 +34,7 @@ alias \
 	addall="git add ." \
     commit="git commit -m $1" \
 	push="git push origin master" \
-	pull="git pull origin master" \
-    up="addall; commit -m $1; push" 
+	pull="git pull origin master"
 
 # Personal scripts.
 alias \
