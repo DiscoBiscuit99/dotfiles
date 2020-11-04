@@ -55,12 +55,13 @@ setxkbmap -option caps:swapescape -option grp:alt_space_toggle "us,dk" &
 
 start-jack &
 ~/.fehbg &
-status & 
+#status & 
 #wal -R &
 picom -D 5 &
 mpd &
 cd & 
 $TERMINAL &
+exec dwmblocks &
 exec dwm 
 #startdwm &
 #dwm-relaunch-on-change &

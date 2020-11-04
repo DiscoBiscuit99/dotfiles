@@ -62,7 +62,10 @@ alias \
 	x="startx" \
 	yt="youtube-dl" \
     gg="poweroff" \
-	theme="wal -i" 
+	theme="wal -i" \
+    pacsearch="pacman -Slq | fzf -m --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk \"{print \$2}\")' | xargs -ro sudo pacman -S" \
+    yaysearch="yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk \"{print \$2}\")' | xargs -ro  yay -S"
+
 
 
 #alias ls='ls --color=auto'

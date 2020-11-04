@@ -124,7 +124,8 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 
 " UTILITIES "
 
-Plugin 'iamcco/markdown-preview'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
 
 Plugin 'vim-pandoc/vim-pandoc-syntax'
 
@@ -301,6 +302,62 @@ augroup pandoc_syntax
     au! BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
 augroup END
 
+" fzf
+let g:fzf_action = {
+    \ 'ctrl-t': 'tab split',
+    \ 'ctrl-x': 'split',
+    \ 'ctrl-v': 'vsplit' }
+
+let g:fzf_history_dir = '~/.local/share/fzf-history'
+let g:fzf_tags_command = 'ctags -R'
+
+" Border color
+let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.8, 'height': 0.8,'yoffset':0.5,'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp' } }
+
+" Customize fzf colors to match your color scheme
+let g:fzf_colors = { 
+    \ 'fg':      ['fg', 'Normal'],
+    \ 'bg':      ['bg', 'Normal'],
+    \ 'hl':      ['fg', 'Comment'],
+    \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+    \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+    \ 'hl+':     ['fg', 'Statement'],
+    \ 'info':    ['fg', 'PreProc'],
+    \ 'border':  ['fg', 'Ignore'],
+    \ 'prompt':  ['fg', 'Conditional'],
+    \ 'pointer': ['fg', 'Exception'],
+    \ 'marker':  ['fg', 'Keyword'],
+    \ 'spinner': ['fg', 'Label'],
+    \ 'header':  ['fg', 'Comment'] }
+
+"Get Files
+command! -bang -nargs=? -complete=dir Files
+    \ call fzf#vim#files(<q-args>, fzf#vim#with_preview({'options': ['--layout=reverse', '--info=inline']}), <bang>0)
+    
+" Get text in files with Rg
+command! -bang -nargs=* Rg
+  \ call fzf#vim#grep(
+  \   'rg --column --line-number --no-heading --color=always --smart-case '.shellescape(<q-args>), 1,
+  \   fzf#vim#with_preview(), <bang>0)
+
+" Ripgrep advanced
+function! RipgrepFzf(query, fullscreen)
+  let command_fmt = 'rg --column --line-number --no-heading --color=always --smart-case %s || true'
+  let initial_command = printf(command_fmt, shellescape(a:query))
+  let reload_command = printf(command_fmt, '{q}')
+  let spec = {'options': ['--phony', '--query', a:query, '--bind', 'change:reload:'.reload_command]}
+  call fzf#vim#grep(initial_command, 1, fzf#vim#with_preview(spec), a:fullscreen)
+endfunction
+
+command! -nargs=* -bang RG call RipgrepFzf(<q-args>, <bang>0)
+
+" Git grep
+command! -bang -nargs=* GGrep
+  \ call fzf#vim#grep(
+  \   'git grep --line-number '.shellescape(<q-args>), 0,
+  \   fzf#vim#with_preview({'dir': systemlist('git rev-parse --show-toplevel')[0]}), <bang>0)
+
+
 " SETTINGS "
 syntax on
 
@@ -357,72 +414,17 @@ set incsearch
 set ignorecase
 set smartcase
 
-" something about netrw
-"let g:netrw_banner = 0
-"let g:netrw_liststyle = 3
-"let g:netrw_browse_split = 4
-"let g:netrw_winsize = 20
-
-"function! OpenToRight()
-    ":normal v
-    "let g:path=expand('%:p')
-    "echo g:path
-    ""q!
-    "execute 'belowright vnew' g:path
-    ":normal <C-l>
-"endfunction
-
-"function! OpenBelow()
-    ":normal v
-    "let g:path=expand('%:p')
-    ":q!
-    "execute 'belowright new' g:path
-    ":normal <C-l>
-"endfunction
-
-"function! NetrwMappings()
-    "" Hack fix to make ctrl-l work properly
-    "noremap <buffer> <C-l> <C-w>l
-    "noremap <silent> <C-f> :call ToggleNetrw()<CR>
-    "noremap <buffer> V :call OpenToRight()<CR>
-    "noremap <buffer> H :call OpenBelow()<CR>
-"endfunction
-
-"augroup netrw_mappings
-    "autocmd!
-    "autocmd filetype netrw call NetrwMappings()
-"augroup END
-
-"function! ToggleNetrw()
-    "if g:NetrwIsOpen
-        "let i = bufnr("$")
-        "while (i >= 1)
-            "if (getbufvar(i, "$filetype") == "netrw")
-                "silent exe "bwipeout " . i
-            "endif
-            "let i-=1
-        "endwhile
-        "let g:NetrwIsOpen=0
-    "else
-        "let g:NetrwIsOoen=1
-        "silent Lexplore
-    "endif
-"endfunction
-
-"" Close Netrw if it's the only buffer open
-"autocmd WinEnter * if winnr('$') == 1 && getbufvar(winbufnr(winnr()), "&filetype") == "netrw" || &buftype == 'quickfix' |q|endif
-
-"" Make netrw act like a project draw
-"augroup ProjectDrawer
-    "autocmd!
-    "autocmd VimEnter * :call ToggleNetrw()
-"augroup END
-
-"let g:NetrwIsOpen=0
-
 " remap leader
 nnoremap <space> <nop>
 let mapleader=" "
+
+" fzf
+map <C-f> :Files<CR>
+map <Leader>b :Buffers<CR>
+
+nnoremap <Leader>g :Rg<CR>
+nnoremap <Leader>t :Tags<CR>
+nnoremap <Leader>m :Marks<CR>
 
 " semantic highlight
 nnoremap <Leader>s :SemanticHighlightToggle<cr>
