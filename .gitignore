@@ -56,6 +56,9 @@
 .config/gladeui/
 .config/ibus/
 .config/dconf/
+.config/eDEX-UI/
+.config/aseprite/
+.config/MusicBrainz/
 
 .config/mpd/log
 .config/mpd/mpd.log

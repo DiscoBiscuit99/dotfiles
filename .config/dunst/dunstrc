@@ -163,7 +163,7 @@
 	icon_position = left
 
 	# Scale larger icons down to this size, set to 0 to disable
-    min_icon_size = 200
+    min_icon_size = 100
 	max_icon_size = 200
 
 	# Paths to default icons.

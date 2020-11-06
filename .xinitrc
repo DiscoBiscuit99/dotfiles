@@ -61,7 +61,7 @@ picom -D 5 &
 mpd &
 cd & 
 $TERMINAL &
-exec dwmblocks &
+dwmblocks &
 exec dwm 
 #startdwm &
 #dwm-relaunch-on-change &
