@@ -1,7 +1,0 @@
-#!/bin/sh
-if [[ $(nmcli d status | grep " connected ") == "" ]]; then
-    echo "not connected"
-else
-    echo " $(nmcli -t -f NAME c show --active)"
-fi
-

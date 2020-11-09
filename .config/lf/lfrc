@@ -18,7 +18,7 @@ cmd open ${{
             $f | sxiv -aboi $f
             ;;
 		audio/*) 
-            mpv --audio-display=no $f
+            mpv $f
             ;;
 		video/*) 
             mpv $f -quiet

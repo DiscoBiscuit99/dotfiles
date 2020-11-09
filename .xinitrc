@@ -62,7 +62,7 @@ mpd &
 cd & 
 $TERMINAL &
 dwmblocks &
-exec dwm 
+dwm 
 #startdwm &
 #dwm-relaunch-on-change &
 

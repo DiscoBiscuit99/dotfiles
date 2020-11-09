@@ -2,7 +2,7 @@
 # Adds '$HOME/.local/bin' to $PATH.
 #export PATH="$PATH:$(du "/usr/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 
-export PATH="$PATH:$HOME/.cargo/bin:$HOME/.scripts:/usr/bin:/opt/cmake/bin"
+export PATH="$PATH:$HOME/.cargo/bin:/usr/bin:/opt/cmake/bin"
 
 # Default programs.
 export EDITOR="nvim"
@@ -12,14 +12,41 @@ export READER="zathura"
 export SHELL="/usr/bin/zsh" 
 export DMENU_OPTIONS="" 
 export ZDOTDIR="$HOME/.config/zsh"
+export SCRIPT_DIR="$HOME/scripts"
 
 source $ZDOTDIR/.zshrc
+
+# Add the script folder
+export PATH="$PATH:$SCRIPT_DIR"
 
 #[ ! -s ~/.config/mpd/pid ] && mpd
 
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
+
+# Mainly for coloring the man-pages
+export LESS=-R
+export LESS_TERMCAP_mb="$(printf '%b' '\e[1;31m')"
+export LESS_TERMCAP_md="$(printf '%b' '\e[1;36m')"
+export LESS_TERMCAP_me="$(printf '%b' '\e[0m')"
+export LESS_TERMCAP_so="$(printf '%b' '\e[01;44;33m')"
+export LESS_TERMCAP_se="$(printf '%b' '\e[0m')"
+export LESS_TERMCAP_us="$(printf '%b' '\e[1;32m')"
+export LESS_TERMCAP_ue="$(printf '%b' '\e[0m')"
+export LESSOPEN="| /usr/bin/highlight -O ansi %s 2>/dev/null"
+
+# Get color support for 'less'
+#export LESS_TERMCAP_mb="$'\e[1;32m'"
+#export LESS_TERMCAP_md="$'\e[1;32m'"
+#export LESS_TERMCAP_me="$'\e[0m'"
+#export LESS_TERMCAP_se="$'\e[0m'"
+#export LESS_TERMCAP_so="$'\e[01;33m'"
+#export LESS_TERMCAP_ue="$'\e[0m'"
+#export LESS_TERMCAP_us="$'\e[1;4;31m'"
+
+export AWT_TOOLKIT="Mtoolkit wmname LG3D"
+export _JAVA_AWT_WM_NONREPARENTING=1	# Fix for Java applications in dwm 
 
 # This is the list for lf icons:
 export LF_ICONS="\
@@ -124,6 +151,7 @@ ex=:\
 *.jpeg=:\
 *.mjpg=:\
 *.mjpeg=:\
+*.gif=:\
 *.bmp=:\
 *.pbm=:\
 *.pgm=:\

@@ -495,7 +495,7 @@ set bg=dark
 "colorscheme spacemacs-theme
 "colorscheme synthwave84
 "colorscheme amber " Transparent when termguicolors is not set
-"colorscheme miramare
+colorscheme miramare
 "colorscheme seattle
 "colorscheme desertEx
 "colorscheme afterglow
@@ -503,4 +503,4 @@ set bg=dark
 "colorscheme lizard
 "colorscheme PaperColor
 "colorscheme wombat
-colorscheme vorange
+"colorscheme vorange

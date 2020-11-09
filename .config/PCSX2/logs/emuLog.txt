@@ -1,0 +1,542 @@
+PCSX2 1.7.0-20201027141438 
+Savestate version: 0x9a0f0000
+
+Host Machine Init:
+	Operating System =  Linux 5.9.2-arch1-1 x86_64
+	Physical RAM     =  7702 MB
+	CPU name         =  Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+	Vendor/Model     =  GenuineIntel (stepping 0B)
+	CPU speed        =  1.990 ghz (8 logical threads)
+	x86PType         =  Standard OEM
+	x86Flags         =  bfebfbff 7ffafbbf
+	x86EFlags        =  2c100800
+
+x86 Features Detected:
+	SSE2.. SSE3.. SSSE3.. SSE4.1.. SSE4.2.. AVX.. AVX2.. FMA
+	Pcsx2 was compiled as 64-bits.
+
+Installing POSIX SIGSEGV handler...
+Reserving memory for recompilers...
+
+Loading plugins from /usr/lib/pcsx2...
+	Bound   GS: libGSdx-AVX2.so [GSdx 64-bit (GCC 10.2.0 AVX/AVX) 1.2.0]
+	Bound  PAD: libonepad.so [OnePAD 20201027141438 2.0.0]
+	Bound  USB: libUSBnull-0.7.0.so [USBnull Driver 20201027141438 0.7.0]
+	Bound DEV9: libdev9ghzdrk-0.4.so [GiGaHeRz's DEV9 Driver 0.4.0]
+Plugins loaded successfully.
+
+(GameDB) 9871 games on record (loaded in 121ms)
+HLE Notice: ELF does not have a path.
+
+Initializing plugins...
+	Init GS
+	Init PAD
+	Init USB
+	Init DEV9
+Plugins initialized successfully.
+
+Patches: No CRC found, using 00000000 instead.
+Opening plugins...
+	Opening GS
+EGL: Supported extensions: EGL_EXT_platform_base EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_KHR_platform_x11 EGL_EXT_platform_x11 EGL_EXT_platform_device EGL_KHR_platform_wayland EGL_EXT_platform_wayland EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+OpenGL information. GPU: Mesa Intel(R) UHD Graphics 620 (WHL GT2). Vendor: Intel. Driver: (Core Profile) Mesa 20.2.1
+INFO: GL_ARB_sparse_texture is NOT SUPPORTED
+INFO: GL_ARB_sparse_texture2 is NOT SUPPORTED
+INFO: GL_ARB_gpu_shader5 is available
+INFO: GL_ARB_shader_image_load_store is available
+INFO: GL_ARB_compute_shader is available
+INFO: GL_ARB_shader_storage_buffer_object is available
+INFO: GL_ARB_texture_view is available
+INFO: GL_ARB_vertex_attrib_binding is available
+INFO: GL_ARB_clear_texture is available
+INFO: GL_ARB_multi_bind is available
+INFO: GL_ARB_direct_state_access is available
+INFO: GL_ARB_texture_barrier is available
+INFO: GL_ARB_get_texture_sub_image is available
+
+Current Renderer: OpenGL
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:00000000
+	Opening PAD
+GSdx Lookup CRC:00000000
+	Opening USB
+	Opening DEV9onepad: controller (Generic X-Box pad) detected with rumble support, GUID:0300000032150000150a000001010000
+
+Failed to GetNetAdapter()
+McdSlot 0 [File]: /home/glenn/.config/PCSX2/memcards/Mcd001.ps2
+McdSlot 1 [File]: /home/glenn/.config/PCSX2/memcards/Mcd002.ps2
+Plugins opened successfully.
+isoFile open ok: /home/glenn/Games/Shadow of the Colossus (Europe, Australia) (En,Fr,De,Es,It).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (2263632 sectors)
+48000 SampleRate: 
+Request SDL audio driver: pulseaudio
+Opened SDL audio driver: pulseaudio
+EE/iR5900-32 Recompiler Reset
+	Bios Found: Europe  v02.00(14/06/2004)  Console
+	BIOS r module not found, skipping...
+	BIOS r module not found, skipping...
+	BIOS e module not found, skipping...
+# Initialize memory (rev:3.70, ctm:196Mhz, cpuclk:147Mhz detected)
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2004-0614, IOP info (CPUID=1f, CACH_CONFIG=0, 2MB, IOP mode)
+ <20040614-100914,ROMconf,PS20200EC20040614.bin:11696>
+# Total accessable memory size: 32 MB (B:2:8:0) (370:2:7c30)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+onepad: controller (Generic X-Box pad) detected with rumble support, GUID:0300000032150000150a000001010000
+# Initialize Scratch Pad ...
+# Initialize Done.
+
+EE DECI2 Manager version 0.06 Feb  6 2003 08:38:48
+  CPUID=2e20, BoardID=0, ROMGEN=2004-0614, 32M
+
+Patches: No CRC found, using 00000000 instead.
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SCES_533.26;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = PAL
+ELF (cdrom0:\SCES_533.26;1) Game CRC = 0x0F0C4A9C, EntryPoint = 0x00100010
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SCES_533.26;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = PAL
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥SCES_533.26;1 secname all
+loadelf version 3.30
+Input ELF format filename = cdrom0:¥SCES_533.26;1
+1 00100000 0002eb0c ...
+2 0012eb80 00008298 ..
+Loaded, cdrom0:¥SCES_533.26;1
+start address 0x100010
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+Elf entry point @ 0x00100010 about to get recompiled. Load patches first.
+ld: start: argc:1 
+ld: 	argc 0: cdrom0:¥SCES_533.26;1
+GSdx Lookup CRC:0F0C4A9C
+GSdx Lookup CRC:0F0C4A9C
+(UpdateVSyncRate) Mode Changed to NTSC.
+(UpdateVSyncRate) FPS Limit Changed : 59.94 fps
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver. 2.2
+    Copyright 1999-2002 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadmodule: fname cdrom0:¥MODULES¥SIO2MAN.IRX;1 args 0 arg 
+loadmodule: id 25, ret 0
+loadmodule: fname cdrom0:¥MODULES¥DBCMAN.IRX;1 args 0 arg 
+loadmodule: id 26, ret 0
+loadmodule: fname cdrom0:¥MODULES¥SIO2D.IRX;1 args 0 arg 
+loadmodule: id 27, ret 0
+loadmodule: fname cdrom0:¥MODULES¥DS1O_D.IRX;1 args 0 arg 
+loadmodule: id 28, ret 0
+(UpdateVSyncRate) Mode Changed to PAL.
+(UpdateVSyncRate) FPS Limit Changed : 50.00 fps
+(UpdateVSyncRate) Mode Changed to NTSC.
+(UpdateVSyncRate) FPS Limit Changed : 59.94 fps
+
+(PCSX2:133344): Gtk-WARNING **: 13:18:15.497: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+EE/iR5900-32 Recompiler Reset
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:40.651: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:40.671: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.322: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.338: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.355: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.372: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.389: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.406: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.424: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.442: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.461: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.476: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.494: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.511: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:41.528: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.278: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.291: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.308: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.326: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.343: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.361: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.379: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.396: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.413: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.430: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.447: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.465: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:42.482: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.289: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.304: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.322: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.339: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.357: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.375: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.392: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.409: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.426: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.443: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.461: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.478: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:19:47.495: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:10.945: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:10.958: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:10.975: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:10.992: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.009: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.027: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.045: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.063: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.079: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.096: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.113: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.130: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.147: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.894: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.909: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.927: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.944: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.960: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.978: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:11.995: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:12.012: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:12.030: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:12.047: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:12.063: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:12.080: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:12.098: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.034: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.054: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.071: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.089: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.107: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.134: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.143: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.160: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.177: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.195: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.213: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.230: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:20:29.247: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+EE/iR5900-32 Recompiler Reset
+
+(PCSX2:133344): Gtk-WARNING **: 13:21:43.466: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:21:43.484: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:21:43.501: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:21:43.601: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:21:43.618: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+Suspending single plugin: GS
+	Saving GS
+	Closing GS
+Delete 0 Shaders, 101 Programs, 28 Pipelines
+Recovering single plugin: GS
+	Opening GS
+EGL: Supported extensions: EGL_EXT_platform_base EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_KHR_platform_x11 EGL_EXT_platform_x11 EGL_EXT_platform_device EGL_KHR_platform_wayland EGL_EXT_platform_wayland EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+Current Renderer: OpenGL
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:0F0C4A9C
+GSdx Lookup CRC:0F0C4A9C
+	Loading GS
+Suspending single plugin: GS
+	Saving GS
+	Closing GS
+Delete 0 Shaders, 52 Programs, 28 Pipelines
+Recovering single plugin: GS
+	Opening GS
+EGL: Supported extensions: EGL_EXT_platform_base EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_KHR_platform_x11 EGL_EXT_platform_x11 EGL_EXT_platform_device EGL_KHR_platform_wayland EGL_EXT_platform_wayland EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+Current Renderer: OpenGL
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+	Loading GS
+GSdx Lookup CRC:0F0C4A9C
+GSdx Lookup CRC:0F0C4A9C
+Suspending single plugin: GS
+	Saving GS
+	Closing GS
+Delete 0 Shaders, 51 Programs, 28 Pipelines
+Recovering single plugin: GS
+	Opening GS
+EGL: Supported extensions: EGL_EXT_platform_base EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_KHR_platform_x11 EGL_EXT_platform_x11 EGL_EXT_platform_device EGL_KHR_platform_wayland EGL_EXT_platform_wayland EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+Current Renderer: Software
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:0F0C4A9C
+	Loading GS
+Suspending single plugin: GS
+	Saving GS
+	Closing GS
+Delete 0 Shaders, 34 Programs, 28 Pipelines
+Recovering single plugin: GS
+	Opening GS
+EGL: Supported extensions: EGL_EXT_platform_base EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_KHR_platform_x11 EGL_EXT_platform_x11 EGL_EXT_platform_device EGL_KHR_platform_wayland EGL_EXT_platform_wayland EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+Current Renderer: Software
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:0F0C4A9C
+	Loading GS
+Suspending single plugin: GS
+	Saving GS
+	Closing GS
+Delete 0 Shaders, 35 Programs, 29 Pipelines
+Recovering single plugin: GS
+	Opening GS
+EGL: Supported extensions: EGL_EXT_platform_base EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_KHR_platform_x11 EGL_EXT_platform_x11 EGL_EXT_platform_device EGL_KHR_platform_wayland EGL_EXT_platform_wayland EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+Current Renderer: Software
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:0F0C4A9C
+	Loading GS
+Suspending single plugin: GS
+	Saving GS
+	Closing GS
+Delete 0 Shaders, 35 Programs, 29 Pipelines
+Recovering single plugin: GS
+	Opening GS
+EGL: Supported extensions: EGL_EXT_platform_base EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_KHR_platform_x11 EGL_EXT_platform_x11 EGL_EXT_platform_device EGL_KHR_platform_wayland EGL_EXT_platform_wayland EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+Current Renderer: Software
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:0F0C4A9C
+	Loading GS
+Suspending single plugin: GS
+	Saving GS
+	Closing GS
+Delete 0 Shaders, 35 Programs, 29 Pipelines
+Recovering single plugin: GS
+	Opening GS
+EGL: Supported extensions: EGL_EXT_platform_base EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_KHR_platform_x11 EGL_EXT_platform_x11 EGL_EXT_platform_device EGL_KHR_platform_wayland EGL_EXT_platform_wayland EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+Current Renderer: Software
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:0F0C4A9C
+	Loading GS
+Suspending single plugin: GS
+	Saving GS
+	Closing GS
+Delete 0 Shaders, 35 Programs, 29 Pipelines
+Recovering single plugin: GS
+	Opening GS
+EGL: Supported extensions: EGL_EXT_platform_base EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_KHR_platform_x11 EGL_EXT_platform_x11 EGL_EXT_platform_device EGL_KHR_platform_wayland EGL_EXT_platform_wayland EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+Current Renderer: OpenGL
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:0F0C4A9C
+GSdx Lookup CRC:0F0C4A9C
+	Loading GS
+Suspending single plugin: GS
+	Saving GS
+	Closing GS
+Delete 0 Shaders, 90 Programs, 29 Pipelines
+Recovering single plugin: GS
+	Opening GS
+EGL: Supported extensions: EGL_EXT_platform_base EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_KHR_platform_x11 EGL_EXT_platform_x11 EGL_EXT_platform_device EGL_KHR_platform_wayland EGL_EXT_platform_wayland EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+Current Renderer: OpenGL
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+	Loading GS
+GSdx Lookup CRC:0F0C4A9C
+GSdx Lookup CRC:0F0C4A9C
+
+(PCSX2:133344): Gtk-WARNING **: 13:31:57.628: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:32:34.328: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:32:34.367: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:32:34.382: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:32:34.399: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:32:34.416: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:32:34.434: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:32:34.451: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:32:34.468: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:32:34.485: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:32:34.502: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 13:32:34.519: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+EE/iR5900-32 Recompiler Reset
+(FileMcd) Warning: checksum sector overwritten. (0)
+(UpdateVSyncRate) Mode Changed to PAL.
+(UpdateVSyncRate) FPS Limit Changed : 50.00 fps
+Closing plugins...
+	Closing DEV9
+	Closing USB
+	Closing PAD
+	Closing GS
+Delete 0 Shaders, 118 Programs, 29 Pipelines
+Plugins closed successfully.
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:42.746: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:42.762: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:42.780: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:42.799: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:42.826: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:42.838: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:42.856: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:42.874: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:42.892: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:42.910: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:42.929: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:42.948: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:48.547: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+
+(PCSX2:133344): Gtk-WARNING **: 15:15:48.559: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+Shutting down plugins...
+Plugins shutdown successfully.
+(GameDB) Unloading...
