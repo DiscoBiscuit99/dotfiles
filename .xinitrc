@@ -59,6 +59,7 @@ start-jack &
 #wal -R &
 picom -D 5 &
 mpd &
+transmission-daemon &
 cd & 
 $TERMINAL &
 dwmblocks &

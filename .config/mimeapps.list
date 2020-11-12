@@ -13,6 +13,7 @@ application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
 image/jpeg=sxiv.desktop;
 audio/mpeg=mpv.desktop;org.musicbrainz.Picard.desktop;
+audio/flac=mpv.desktop;org.musicbrainz.Picard.desktop;
 
 [Default Applications]
 x-scheme-handler/magnet=torrent.desktop;

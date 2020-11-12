@@ -90,7 +90,7 @@ progressbar_look =  "=>-"
 progressbar_color = "black"  # If not set, the character will be bolded while the color will be the same.
 #progressbar_elapsed_color = "green" # if not set, the character will be bolded while the color will be the same.
 
-now_playing_prefix = "$b>> "
+now_playing_prefix = "$b> "
 now_playing_suffix = "$/b"
 centered_cursor = "yes"
 

@@ -12,7 +12,7 @@ export READER="zathura"
 export SHELL="/usr/bin/zsh" 
 export DMENU_OPTIONS="" 
 export ZDOTDIR="$HOME/.config/zsh"
-export SCRIPT_DIR="$HOME/scripts"
+export SCRIPT_DIR="$HOME/Scripts"
 
 source $ZDOTDIR/.zshrc
 

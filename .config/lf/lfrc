@@ -20,6 +20,9 @@ cmd open ${{
 		audio/*) 
             mpv $f
             ;;
+        audio/mp3)
+            mpv $f
+            ;;
 		video/*) 
             mpv $f -quiet
             ;;

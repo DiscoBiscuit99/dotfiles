@@ -36,14 +36,15 @@ alias \
 	push="git push origin master" \
 	pull="git pull origin master"
 
-# Personal scripts.
+# Scripts.
 alias \
 	lw="list-wifi" \
 	cw="connect-wifi" 
 
 # Sourcing of different files.
 alias \
-	aso="source ~/.config/aliasrc" 
+	aso="source ~/.config/aliasrc" \
+    zso="source ~/.zprofile"
 
 # Navigation
 alias \
@@ -68,6 +69,8 @@ alias \
     vbam="visualboyadvance-m" \
     swapcaps="setxkbmap -option caps:swapescape" \
     tsm="transmission-remote" \
+    msg="caprine" \
+    nord="cat ~/Desktop/.nord"
 
 
 

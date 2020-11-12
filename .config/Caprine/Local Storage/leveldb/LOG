@@ -1,0 +1,6 @@
+2020/11/10-20:45:54.949 a4334 Reusing MANIFEST /home/glenn/.config/Caprine/Local Storage/leveldb/MANIFEST-000001
+2020/11/10-20:45:54.950 a4334 Recovering log #4
+2020/11/10-20:45:54.950 a4334 Reusing old log /home/glenn/.config/Caprine/Local Storage/leveldb/000004.log 
+2020/11/11-00:51:58.915 e3af2 Level-0 table #8: started
+2020/11/11-00:51:58.919 e3af2 Level-0 table #8: 10146 bytes OK
+2020/11/11-00:51:58.921 e3af2 Delete type=0 #4
