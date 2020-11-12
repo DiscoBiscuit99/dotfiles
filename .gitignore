@@ -58,7 +58,8 @@
 .config/dconf/
 .config/eDEX-UI/
 .config/aseprite/
-.config/MusicBrainz/
+.config/MusicBrainz/ 
+.config/Caprine/
 
 .config/mpd/log
 .config/mpd/mpd.log
