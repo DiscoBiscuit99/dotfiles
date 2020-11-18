@@ -70,10 +70,9 @@ alias \
     swapcaps="setxkbmap -option caps:swapescape" \
     tsm="transmission-remote" \
     msg="caprine" \
-    nord="cat ~/Desktop/.nord"
-
-
-
+    nord="cat ~/Desktop/.nord" \
+    nf="neofetch" \
+    colortest="msgcat --color=test"
 
 #alias ls='ls --color=auto'
 
