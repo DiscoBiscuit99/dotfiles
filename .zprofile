@@ -41,14 +41,7 @@ export AWT_TOOLKIT="Mtoolkit wmname LG3D"
 export _JAVA_AWT_WM_NONREPARENTING=1	# Fix for Java applications in dwm 
 
 # Remove ugly background color from `other writable` and `sticky writable` directories
-#export LS_COLORS="\
-#tw=1;34:\
-#st=1;34:\
-#ow=1;34:\
-#dt=1;34:\
-#di=1;34:\
-#" # prepend this maybe: $LS_COLORS:
-
+# prepend this maybe: $LS_COLORS: 
 export LS_COLORS="\
 tw=01;34:\
 st=01;34:\
@@ -170,7 +163,7 @@ ex=01;32:\
 *.spx=0;36:\
 *.xspf=0;36:\
 *.iso=0;33:\
-*.pdf=0;31:\
+*.pdf=0;37:\
 "
 
 # This is the list for lf icons:

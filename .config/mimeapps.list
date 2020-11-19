@@ -22,6 +22,7 @@ x-scheme-handler/https=firefox.desktop;
 x-scheme-handler/ftp=firefox.desktop;
 x-scheme-handler/chrome=firefox.desktop;
 text/html=firefox.desktop;
+text/ssa=aegisub.desktop;
 application/x-bittorrent=torrent.desktop;
 application/x-extension-htm=firefox.desktop;
 application/x-extension-html=firefox.desktop;

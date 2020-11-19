@@ -72,7 +72,9 @@ alias \
     msg="caprine" \
     nord="cat ~/Desktop/.nord" \
     nf="neofetch" \
-    colortest="msgcat --color=test"
+    pf="pfetch" \
+    colortest="msgcat --color=test" \
+    ct="colortable"
 
 #alias ls='ls --color=auto'
 

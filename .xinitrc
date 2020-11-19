@@ -44,14 +44,14 @@ xterm -geometry 80x66+0+0 -name login &
 xbindkeys &
 
 # Settings for Japanese input
-export GTK_IM_MODULE='ibus'
-export QT_IM_MODULE='ibus'
-export XMODIFIERS=@im='ibus'
+export XMODIFIERS=@im=fcitx
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
 
 #Toolbar for anthy
-ibus-daemon -drxicom &
+#ibus-daemon -drxicom &
 
-setxkbmap -option caps:swapescape -option grp:alt_space_toggle "us,dk" &
+setxkbmap -option caps:swapescape & # -option grp:alt_space_toggle "us,dk" &
 
 start-jack &
 ~/.fehbg &
@@ -63,7 +63,8 @@ transmission-daemon &
 cd & 
 $TERMINAL &
 dwmblocks &
-dwm 
+fcitx -r &
+exec dwm 
 #startdwm &
 #dwm-relaunch-on-change &
 

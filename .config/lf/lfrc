@@ -18,13 +18,16 @@ cmd open ${{
             $f | sxiv -aboi $f
             ;;
 		audio/*) 
-            mpv $f
+            mpv $f 
             ;;
         audio/mp3)
-            mpv $f
+            mpv $f 
             ;;
 		video/*) 
-            mpv $f -quiet
+            mpv $f -quiet 
+            ;;
+        text/ssa|ass)
+            aegisub $f
             ;;
 		application/pdf|application/vnd*|application/epub*) 
             zathura $fx
