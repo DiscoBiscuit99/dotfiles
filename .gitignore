@@ -3,6 +3,8 @@
 
 !README.md
 
+!Scripts/
+
 !.zprofile
 !.Xresources
 !.xinitrc
@@ -24,8 +26,6 @@
 !.mozc/
 !.anthy/
 !.uim.d/
-
-!.ncmpcpp/
 
 !.config/
 .config/spotify/

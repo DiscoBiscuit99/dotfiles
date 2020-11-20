@@ -39,12 +39,13 @@ alias \
 # Scripts.
 alias \
 	lw="list-wifi" \
-	cw="connect-wifi" 
+	cw="connect-wifi" \
+    ct="colortable" 
 
 # Sourcing of different files.
 alias \
 	aso="source ~/.config/aliasrc" \
-    zso="source ~/.zprofile"
+    pso="source ~/.profile"
 
 # Navigation
 alias \
@@ -74,7 +75,7 @@ alias \
     nf="neofetch" \
     pf="pfetch" \
     colortest="msgcat --color=test" \
-    ct="colortable"
+    imgs="sxiv -abrt ~/Pictures"
 
 #alias ls='ls --color=auto'
 

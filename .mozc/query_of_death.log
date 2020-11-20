@@ -1,0 +1,18 @@
+---- Start history snapshot for Query of Death
+Created at 2020-11-19 21:54:16 640 139846180787712
+Version 2.25.4150.102
+type: SEND_COMMAND
+id: 6182896291976995469
+command {
+  type: REVERT
+}
+---- End history snapshot for Query of Death
+---- Start history snapshot for Query of Death
+Created at 2020-11-20 10:26:51 23305 140003667916288
+Version 2.25.4150.102
+type: SEND_COMMAND
+id: 11913928869895391900
+command {
+  type: REVERT
+}
+---- End history snapshot for Query of Death

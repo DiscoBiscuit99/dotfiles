@@ -1,0 +1,8 @@
+#!/bin/sh
+#echo $(xkb-switch)
+if [ $(fcitx-remote) == 1 ]; then
+    echo us
+else
+    echo mozc
+fi
+

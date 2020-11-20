@@ -11,11 +11,11 @@ set period 1
 
 cmd open ${{
     case $(file --mime-type $f -b) in
-		image/vnd.djvu|application/pdf|application/octet-stream) 
+		image/vnd.djvu|application/pdf) 
             zathura $fx
             ;;
-		image/*) 
-            $f | sxiv -aboi $f
+		image/*|application/octet-stream) 
+            $f | sxiv -abior $f
             ;;
 		audio/*) 
             mpv $f 
@@ -26,7 +26,7 @@ cmd open ${{
 		video/*) 
             mpv $f -quiet 
             ;;
-        text/ssa|ass)
+        text/ssa|text/ass)
             aegisub $f
             ;;
 		application/pdf|application/vnd*|application/epub*) 

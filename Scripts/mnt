@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ $1 == "ntfs" ]; then
+    mount -t ntfs-3g $2 /run/media/clara
+else
+    mount $1 /run/media/clara
+fi
