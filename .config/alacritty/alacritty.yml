@@ -1,17 +1,17 @@
-font:
+font: # Alternative: Hack Nerd Font
   normal:
-    family: Hack Nerd Font
+    family: Consolas
     style: Regular
 
   bold:
-    family: Hack Nerd Font
+    family: Consolas
     style: Bold
 
   italic:
-    family: Hack Nerd Font
+    family: Consolas
     style: Bold Italic
 
-  size: 6
+  size: 6.5
 
 background_opacity: 0.90
 

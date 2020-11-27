@@ -1,8 +1,9 @@
 # Enable colors and change prompt: (by use of PyWal)
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
-#setopt autocd		# Automatically cd into typed directory.
+setopt autocd		# Automatically cd into typed directory.
 stty stop undef		# Disable ctrl-s to freeze terminal.
+setopt interactive_comments
 
 # Load cached PyWal colorscheme.
 #source ~/.cache/wal/colors-tty.sh
@@ -35,6 +36,22 @@ bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
 bindkey -v '^?' backward-delete-char
 
+# Use lf to switch directories and bind it to ctrl-o
+lfcd() {
+    tmp="$(mktemp)"
+    lf -last-dir-path="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        dir="$(cat "$tmp")"
+        rm -f "$tmp" >/dev/null
+        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+    fi
+}
+
+bindkey -s '^o' 'lfcd\n'
+bindkey -s '^a' 'qalc\n'
+bindkey -s '^f' 'cd "$(dirname "$(fzf)")"\n'
+bindkey -s '^[[P' delete-char
+
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
@@ -47,5 +64,4 @@ source /usr/share/fzf/completion.zsh
 source /usr/share/fzf/key-bindings.zsh
 
 # Load zsh-syntax-highlighting; should be last.
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
-
+source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null 

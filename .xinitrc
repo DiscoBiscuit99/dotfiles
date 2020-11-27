@@ -60,10 +60,11 @@ start-jack &
 picom -D 5 &
 mpd &
 transmission-daemon &
-cd & 
 $TERMINAL &
 dwmblocks &
 fcitx -r &
+#exec wmx
+#exec wm2
 exec dwm 
 #startdwm &
 #dwm-relaunch-on-change &

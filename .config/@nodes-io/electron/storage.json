@@ -1,0 +1,127 @@
+{
+  "analyticsCache": [
+    {
+      "hitType": "event",
+      "params": {
+        "t": "event",
+        "v": 1,
+        "tid": "UA-163596334-2",
+        "cid": "6a39495bf38ee2c818d6c1f3ff57706588b5c2281105e61ad6f536869b1ccbd3",
+        "ds": "app",
+        "an": "Nodes",
+        "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) @nodes-io/electron/1.0.0-beta Chrome/83.0.4103.119 Electron/9.0.5 Safari/537.36",
+        "av": "1.0.0-beta",
+        "sr": "2160x1440",
+        "ul": "en-US",
+        "ec": "App Lifecycle",
+        "ea": "loaded"
+      },
+      "timestamp": 1605928338761
+    },
+    {
+      "hitType": "event",
+      "params": {
+        "t": "event",
+        "v": 1,
+        "tid": "UA-163596334-2",
+        "cid": "6a39495bf38ee2c818d6c1f3ff57706588b5c2281105e61ad6f536869b1ccbd3",
+        "ds": "app",
+        "an": "Nodes",
+        "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) @nodes-io/electron/1.0.0-beta Chrome/83.0.4103.119 Electron/9.0.5 Safari/537.36",
+        "av": "1.0.0-beta",
+        "sr": "2160x1440",
+        "ul": "en-US",
+        "ec": "App Lifecycle",
+        "ea": "loaded"
+      },
+      "timestamp": 1605928530346
+    },
+    {
+      "hitType": "event",
+      "params": {
+        "t": "event",
+        "v": 1,
+        "tid": "UA-163596334-2",
+        "cid": "6a39495bf38ee2c818d6c1f3ff57706588b5c2281105e61ad6f536869b1ccbd3",
+        "ds": "app",
+        "an": "Nodes",
+        "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) @nodes-io/electron/1.0.0-beta Chrome/83.0.4103.119 Electron/9.0.5 Safari/537.36",
+        "av": "1.0.0-beta",
+        "sr": "2160x1440",
+        "ul": "en-US",
+        "ec": "Window Creation",
+        "ea": "create",
+        "ev": "views/create-project.html?template=blank"
+      },
+      "timestamp": 1605928594125
+    },
+    {
+      "hitType": "event",
+      "params": {
+        "t": "event",
+        "v": 1,
+        "tid": "UA-163596334-2",
+        "cid": "6a39495bf38ee2c818d6c1f3ff57706588b5c2281105e61ad6f536869b1ccbd3",
+        "ds": "app",
+        "an": "Nodes",
+        "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) @nodes-io/electron/1.0.0-beta Chrome/83.0.4103.119 Electron/9.0.5 Safari/537.36",
+        "av": "1.0.0-beta",
+        "sr": "2160x1440",
+        "ul": "en-US",
+        "ec": "User Action",
+        "ea": "clickTemplateOnDashboardWindow",
+        "ev": "blank"
+      },
+      "timestamp": 1605928594121
+    },
+    {
+      "hitType": "event",
+      "params": {
+        "t": "event",
+        "v": 1,
+        "tid": "UA-163596334-2",
+        "cid": "6a39495bf38ee2c818d6c1f3ff57706588b5c2281105e61ad6f536869b1ccbd3",
+        "ds": "app",
+        "an": "Nodes",
+        "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) @nodes-io/electron/1.0.0-beta Chrome/83.0.4103.119 Electron/9.0.5 Safari/537.36",
+        "av": "1.0.0-beta",
+        "sr": "2160x1440",
+        "ul": "en-US",
+        "ec": "Window Creation",
+        "ea": "create",
+        "ev": "views/markdown.html?file=node_modules/@nodes-io/website/src/pages/docs/manual.md"
+      },
+      "timestamp": 1605928681373
+    },
+    {
+      "hitType": "event",
+      "params": {
+        "t": "event",
+        "v": 1,
+        "tid": "UA-163596334-2",
+        "cid": "6a39495bf38ee2c818d6c1f3ff57706588b5c2281105e61ad6f536869b1ccbd3",
+        "ds": "app",
+        "an": "Nodes",
+        "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) @nodes-io/electron/1.0.0-beta Chrome/83.0.4103.119 Electron/9.0.5 Safari/537.36",
+        "av": "1.0.0-beta",
+        "sr": "2160x1440",
+        "ul": "en-US",
+        "ec": "Window Creation",
+        "ea": "create",
+        "ev": "views/markdown.html?file=node_modules/@nodes-io/website/src/pages/docs/api-reference.md"
+      },
+      "timestamp": 1605928863899
+    }
+  ],
+  "window-state": {
+    "x": 1506,
+    "y": 39,
+    "width": 621,
+    "height": 681
+  },
+  "recentFolders": [
+    {
+      "path": "/home/glenn/Documents/Nodes/test"
+    }
+  ]
+}

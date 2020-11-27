@@ -11,7 +11,8 @@ alias \
 	rm="rm -v" \
 	mkd="mkdir -pv" \
 	ll="ls -l" \
-	la="ls -la"
+	la="ls -la" \
+    please="sudo"
 
 # Colorize commands when possible.
 alias \
@@ -47,18 +48,6 @@ alias \
 	aso="source ~/.config/aliasrc" \
     pso="source ~/.profile"
 
-# Navigation
-alias \
-	dev="cd ~/Dev" \
-    programs="cd ~/Programs" \
-    desktop="cd ~/Desktop" \
-    documents="cd ~/Documents" \
-    downloads="cd ~/Downloads" \
-    music="cd ~/Music" \
-    pictures="cd ~/Pictures" \
-    videos="cd ~/Videos" \
-    media="cd /run/media/clara"
-
 # These common commands are just too long! Abbreviate them.
 alias \
 	x="startx" \
@@ -75,7 +64,10 @@ alias \
     nf="neofetch" \
     pf="pfetch" \
     colortest="msgcat --color=test" \
-    imgs="sxiv -abrt ~/Pictures"
+    media="cd /run/media/clara" \
+    imgs="sxiv -abrt ~/Pictures" \
+    streamheregource="gource -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libvpx -b 10000K gource.webm" \
+    shg="streamheregource"
 
 #alias ls='ls --color=auto'
 
