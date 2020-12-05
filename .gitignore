@@ -24,6 +24,11 @@
 !.local/emoji
 
 !.mozc/
+.mozc/.history.db 
+.mozc/.session.ipc
+.mozc/boundary.db
+.mozc/segment.db
+
 !.anthy/
 !.uim.d/
 
@@ -61,6 +66,8 @@
 .config/MusicBrainz/ 
 .config/Caprine/
 .config/Notepadqq/
+.config/StardewValley/
+.config/@nodes-io/
 
 .config/mpd/log
 .config/mpd/mpd.log
