@@ -1,3 +1,0 @@
-[2020-11-21 04:16:57.745] [error] stderr:
-(node:23972) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-
