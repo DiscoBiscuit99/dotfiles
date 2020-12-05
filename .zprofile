@@ -164,6 +164,7 @@ ex=01;32:\
 *.xspf=0;36:\
 *.iso=0;33:\
 *.pdf=0;37:\
+*.djvu=0;37:\
 "
 
 # This is the list for lf icons:

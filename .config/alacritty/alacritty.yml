@@ -1,14 +1,14 @@
-font: # Alternative: Hack Nerd Font
+font: # Alternative: Consolas
   normal:
-    family: Consolas
+    family: Hack Nerd Font
     style: Regular
 
   bold:
-    family: Consolas
+    family: Hack Nerd Font
     style: Bold
 
   italic:
-    family: Consolas
+    family: Hack Nerd Font
     style: Bold Italic
 
   size: 6.5

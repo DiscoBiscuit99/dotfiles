@@ -292,7 +292,7 @@ let g:writemode_outputdir = "~/Documents/writing/"
 "let g:writemode_cssref = "<path to your custom css-file>"
 let g:writemode_docxref = "~/Documents/writings"
 
-" vimwiki
+" vimwiki 
 "hi VimwikiHeader1 guifg=#FF0000
 "hi VimwikiHeader2 guifg=#00FF00
 "hi VimwikiHeader3 guifg=#0000FF
@@ -432,8 +432,11 @@ nnoremap <Leader>s :SemanticHighlightToggle<cr>
 " rainbow parentheses
 nnoremap <Leader>r :RainbowToggle<cr>
 
-" Goyo
+" goyo
 nnoremap <Leader>g :Goyo<cr>
+
+" vimwiki
+nnoremap <Leader>wg :VimwikiDiaryGenerateLinks<CR>
 
 " moving about panes
 nnoremap <C-j> <C-w>h

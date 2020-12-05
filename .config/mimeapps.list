@@ -22,6 +22,7 @@ audio/mp3=mpv.desktop;org.musicbrainz.Picard.desktop;
 audio/flac=mpv.desktop;org.musicbrainz.Picard.desktop;
 video/mp4=mpv.desktop;
 video/mkv=mpv.desktop;
+text/plain=notepadqq.desktop;com.github.johnfactotum.Foliate.desktop;
 
 [Default Applications]
 x-scheme-handler/magnet=torrent.desktop;
@@ -50,4 +51,3 @@ audio/flac=mpv.desktop;
 video/mp4=mpv.desktop;
 video/mkv=mpv.desktop;
 x-scheme-handler/magnet=torrent.desktop=.local/share/applications/torrent.desktop
-
